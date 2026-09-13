@@ -16,6 +16,12 @@ void main() {
   const String appName = 'Lab1';
   final int startYear = 2026;
   print('$appName started in $startYear');
+  String? city = null;
+  print(city?.toUpperCase());
+  String? nickname = null;
+  String display =
+      nickname ?? 'Аноним'; 
+  print(display);
   List<String> fruits = ['яблоко', 'банан', 'груша'];
   fruits.add('апельсин');
   print(fruits[0]);
@@ -28,7 +34,7 @@ void main() {
   print(ids.length);
   List<String> fruits2 = ['яблоко', 'банан', 'груша'];
   for (var fruit in fruits2) {
-    
+
   }
 
 
